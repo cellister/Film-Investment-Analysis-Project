@@ -57,6 +57,24 @@ Overview of dataset:
 
 This project uses descriptive analytics to report film financial performance across several variables using historical and current data. This analysis organizes and uses data from a variety of datasets to alert, explore, and report trends and insights into the potential gross earnings of new films based on genre, runtime, and release date. 
 
+There are two main sections:
+
+1. Data preparation
+The steps include:
+
+Importing libraries
+Reading and cleaning provided data
+Dealing with missing values
+Joining datasets
+
+2. Visualisations and insights
+For each characteristic:
+
+Conduct feature engineering where applicable
+Create visualisations
+Draw conclusions
+Provide recommendations
+
 # Key Findings
 
 ## Profit and Profit Margin
