@@ -1,6 +1,9 @@
 # Film Investment Analysis
 
-This project was completed as the final Phase 2 assessment in the Flatiron School’s Data Science Bootcamp.
+This project was completed as the final Phase 2 assessment in the Flatiron School’s Data Science Bootcamp. 
+
+Analysis by Erin Wasserman, February 2024
+
 
 # Overview
 
@@ -11,22 +14,10 @@ This project was completed as the final Phase 2 assessment in the Flatiron Schoo
 Analyzing several movie datasets can provide valuable insights that can lead to concrete business recommendations in various aspects of the film industry. When considering characteristics of a successful movie, I analyzed the movie data to identify movies with the greatest return on investment. Based on this analysis, which is explained below, I can recommend . Furthermore, below are three recommendations based on my analysis:
 
 * **Action and/or Adventure genre movies gross higher than other genres**
-* **Most successful release months are June, July, November, and December**
+* **Most successful release months are May, June, November, and December**
 * **The most profitable movies are 85-125 minutes in length**
 
 It's important to note that any business recommendations derived from data analysis should be accompanied by careful consideration of the specific context, legal and regulatory requirements, and limitations of the dataset. Additionally, these recommendations should be subject to ongoing evaluation and refinement based on updated data and emerging industry practices.
-
-* **Jupyter Notebook**
-
-The [Jupyter Notebook](https://github.com/cellister/Film-Investment-Analysis-Project/blob/main/Film%20Investment%20Analysis%20Notebook.ipynb) is the key deliverable and contains the details of my data strategy, methodology, data cleaning, visualizations, and actionable insights.
-
-* **Presentation**
-
-This 5-7 minute, non-technical [presentation](...) was made in [Canva](https://www.canva.com/design/DAFzlcctuzo/YpMIvURJO6cI7aveTLrNDA/edit?utm_content=DAFzlcctuzo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) and gives an impactful and brief overview of the key insights and recommendations. 
-
-* **Data**
-
-The data used in this analysis can be found in the ‘Data’ folder. Some data can be found on the [IMDb Website](https://developer.imdb.com/non-commercial-datasets/).
 
 
 # Data Understanding
@@ -37,7 +28,7 @@ Overview of dataset:
 
    **Independent Sources:** 
    * **Internet Movie Database (IMDb)** 
-   * **The Movie Database (TMBd)** 
+   * **The Movie Database (TMDb)** 
    * **Box Office Mojo** 
    * **The Numbers**
  
@@ -46,14 +37,16 @@ Overview of dataset:
    * **Data Quantity**
    * **Data Quality**
  
-   **Decision-based Variables used:** 
+   **Decision-based Variables used:**
+   * **Profit/Profit Margin**
+   ** **Average Domestic Gross**
    * **Movie Runtime** 
    * **Movie Release Date** 
    * **Genre of Movie**
  
    **Missing Values:** In the case of data quality, missing data were handled on a case by case basis. Some considerations made were the relative importance of the variable in a particular analysis, how much data was needed, and finally, the possibility of filling data with a central measure of tendency and the statistical implications.  
 
-# Methods
+# Methodology
 
 This project uses descriptive analytics to report film financial performance across several variables using historical and current data. This analysis organizes and uses data from a variety of datasets to alert, explore, and report trends and insights into the potential gross earnings of new films based on genre, runtime, and release date. 
 
@@ -79,13 +72,56 @@ Provide recommendations
 
 ## Profit and Profit Margin
 
+* A strong, positive, linear association between profit and average domestic gross with a few outliers.
+* The median profit is approximately 500 million US dollars.
+* The median profit margin for a top 100 all-time grossing movie is approximately 85%.
+* No correlation between budget and adjusted average domestic gross.
+
+<img src="Photos/money_analysis/domestic_gross_profit.jpg" alt="other_image" style="width: 200px; display: block; margin: auto;">
+
+<img src="Photos/money_analysis/budget_profit_margin.jpg" alt="other_image" style="width: 200px; display: block; margin: auto;">
+
 ## Genre
+
+* The top three all-time grossing genres are Action, Adventure, and Comedy.
+* Almost 40% of the 100 top grossing movies of all time fall into the top three, all-time grossing genres of Action, Adventure, and Comedy.
+* More than 50% of all the movies listed are in the genre categories of Drama, Documentary, and Comedy.
+
+<img src="Photos/genre_analysis/bubble_plot_domestic_gross_by_genre.jpg" alt="other_image" style="width: 200px; display: block; margin: auto;">
+
+<img src="Photos/genre_analysis/t100_percent_by_genre.jpg" alt="other_image" style="width: 200px; display: block; margin: auto;">
+
+<img src="Photos/genre_analysis/production_count_by_genre.jpg" alt="other_image" style="width: 200px; display: block; margin: auto;">
 
 ## Release Date
 
+* The most successful months are May, June, July, November, and December.
+* Most movies are released on a Friday.
+
+<img src="Photos/release_date_analysis/release_month_all.jpg" alt="other_image" style="width: 200px; display: block; margin: auto;">
+
+<img src="Photos/release_date_analysis/t100_release_month.jpg" alt="other_image" style="width: 200px; display: block; margin: auto;">
+
 ## Runtime
 
+* The average runtime is 85 minutes.
+* Top grossing movies run between 85-125 minutes.
+* Movies that run between 85-125 minutes have a larger adjusted average domestic gross.
+
+<img src="Photos/runtime_analysis/runtime_minute_distribution.jpg" alt="other_image" style="width: 200px; display: block; margin: auto;">
+
+<img src="Photos/runtime_analysis/runtime_range_movie_count.jpg" alt="other_image" style="width: 200px; display: block; margin: auto;">
+
+<img src="Photos/runtime_analysis/runtime_domestic_gross.jpg" alt="other_image" style="width: 200px; display: block; margin: auto;">
+
 # Actionable Insights
+
+1. Produce a movie with a runtime between 85-125 minutes.
+2. Aim for a May/June or November/December release date.
+3. Produce a movie with a genre of action or adventure. 
+4. Plan for a budget of $50-$250 million.
+
+# Next Steps
 
 
 
@@ -97,6 +133,20 @@ GitHub: [Cellister](https://github.com/cellister)
 
 Email address: cellister at gmail .com
 
+# Repository Structure
+
+* **Jupyter Notebook**
+
+The [Jupyter Notebook](https://github.com/cellister/Film-Investment-Analysis-Project/blob/main/Film%20Investment%20Analysis%20Notebook.ipynb) is the key deliverable and contains the details of my data strategy, methodology, data cleaning, visualizations, and actionable insights.
+
+* **Presentation**
+
+This 5-7 minute, non-technical [presentation](...) was made in [Canva](https://www.canva.com/design/DAFzlcctuzo/YpMIvURJO6cI7aveTLrNDA/edit?utm_content=DAFzlcctuzo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) and gives an impactful and brief overview of the key insights and recommendations. 
+
+* **Data**
+
+The data used in this analysis can be found in the ‘Data’ folder. Some data can be found on the [IMDb Website](https://developer.imdb.com/non-commercial-datasets/).
+
 
 ├── code
 │   ├── __init__.py
@@ -107,5 +157,5 @@ Email address: cellister at gmail .com
 ├── images
 ├── __init__.py
 ├── README.md
-├── Animal_Shelter_Needs_Presentation.pdf
-└── animal_shelter_needs_analysis.ipynb
+├── Film_Investment_Ananlysis_Presentation.pdf
+└── Film_Investment_Analysis.ipynb
