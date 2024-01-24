@@ -77,9 +77,9 @@ Provide recommendations
 * The median profit margin for a top 100 all-time grossing movie is approximately 85%.
 * No correlation between budget and adjusted average domestic gross.
 
-<img src="Photos/money_analysis/domestic_gross_profit.jpg" alt="other_image" style="width: 200px; display: block; margin: auto;">
+<img src="Photos/money_analysis/domestic_gross_profit.png" alt="other_image" style="width: 200px; display: block; margin: auto;">
 
-<img src="Photos/money_analysis/budget_profit_margin.jpg" alt="other_image" style="width: 200px; display: block; margin: auto;">
+<img src="Photos/money_analysis/budget_profit_margin.png" alt="other_image" style="width: 200px; display: block; margin: auto;">
 
 ## Genre
 
@@ -87,20 +87,20 @@ Provide recommendations
 * Almost 40% of the 100 top grossing movies of all time fall into the top three, all-time grossing genres of Action, Adventure, and Comedy.
 * More than 50% of all the movies listed are in the genre categories of Drama, Documentary, and Comedy.
 
-<img src="Photos/genre_analysis/bubble_plot_domestic_gross_by_genre.jpg" alt="other_image" style="width: 200px; display: block; margin: auto;">
+<img src="Photos/genre_analysis/bubble_plot_domestic_gross_by_genre.png" alt="other_image" style="width: 200px; display: block; margin: auto;">
 
-<img src="Photos/genre_analysis/t100_percent_by_genre.jpg" alt="other_image" style="width: 200px; display: block; margin: auto;">
+<img src="Photos/genre_analysis/t100_percent_by_genre.png" alt="other_image" style="width: 200px; display: block; margin: auto;">
 
-<img src="Photos/genre_analysis/production_count_by_genre.jpg" alt="other_image" style="width: 200px; display: block; margin: auto;">
+<img src="Photos/genre_analysis/production_count_by_genre.png" alt="other_image" style="width: 200px; display: block; margin: auto;">
 
 ## Release Date
 
 * The most successful months are May, June, July, November, and December.
 * Most movies are released on a Friday.
 
-<img src="Photos/release_date_analysis/release_month_all.jpg" alt="other_image" style="width: 200px; display: block; margin: auto;">
+<img src="Photos/release_date_analysis/release_month_all.png" alt="other_image" style="width: 200px; display: block; margin: auto;">
 
-<img src="Photos/release_date_analysis/t100_release_month.jpg" alt="other_image" style="width: 200px; display: block; margin: auto;">
+<img src="Photos/release_date_analysis/t100_release_month.png" alt="other_image" style="width: 200px; display: block; margin: auto;">
 
 ## Runtime
 
@@ -108,11 +108,11 @@ Provide recommendations
 * Top grossing movies run between 85-125 minutes.
 * Movies that run between 85-125 minutes have a larger adjusted average domestic gross.
 
-<img src="Photos/runtime_analysis/runtime_minute_distribution.jpg" alt="other_image" style="width: 200px; display: block; margin: auto;">
+<img src="Photos/runtime_analysis/runtime_minute_distribution.png" alt="other_image" style="width: 200px; display: block; margin: auto;">
 
-<img src="Photos/runtime_analysis/runtime_range_movie_count.jpg" alt="other_image" style="width: 200px; display: block; margin: auto;">
+<img src="Photos/runtime_analysis/runtime_range_movie_count.png" alt="other_image" style="width: 200px; display: block; margin: auto;">
 
-<img src="Photos/runtime_analysis/runtime_domestic_gross.jpg" alt="other_image" style="width: 200px; display: block; margin: auto;">
+<img src="Photos/runtime_analysis/runtime_domestic_gross.png" alt="other_image" style="width: 200px; display: block; margin: auto;">
 
 # Actionable Insights
 
