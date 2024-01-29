@@ -12,7 +12,7 @@ This project analyzes which types of movies generate the most revenue at the box
 
 # Business Problem
 
-Analyzing several movie datasets can provide valuable insights that can lead to concrete business recommendations in various aspects of the film industry. When considering characteristics of a successful movie, I analyzed the movie data to identify movies with the greatest return on investment. Based on this analysis, which is explained below, I can recommend . Furthermore, below are three recommendations based on my analysis:
+Analyzing several movie datasets can provide valuable insights that can lead to concrete business recommendations in various aspects of the film industry. When considering characteristics of a successful movie, the movie data was analyzed to identify movies with the greatest return on investment. Based on this analysis, which is explained below, are the following three recommendations:
 
 * **Action and/or Adventure genre movies gross higher than other genres**
 * **Most successful release months are May, June, November, and December**
@@ -28,22 +28,22 @@ Some media databases provide public data that includes various data about histor
 Overview of dataset:
 
    **Independent Sources:** 
-   * **Internet Movie Database (IMDb)** 
-   * **The Movie Database (TMDb)** 
-   * **Box Office Mojo** 
-   * **The Numbers**
+   * Internet Movie Database (IMDb)
+   * The Movie Database (TMDb)
+   * Box Office Mojo
+   * The Numbers
  
    **About:** Selected film industry data reported between 1915-2020. Due to the differences in the  independent databases, when choosing variables several considerations were made:
-   * **Data Relevance**
-   * **Data Quantity**
-   * **Data Quality**
+   * Data Relevance
+   * Data Quantity
+   * Data Quality
  
    **Decision-based Variables used:**
-   * **Profit/Profit Margin**
-   * **Average Domestic Gross**
-   * **Movie Runtime** 
-   * **Movie Release Date** 
-   * **Genre of Movie**
+   * Profit/Profit Margin
+   * Average Domestic Gross
+   * Movie Runtime 
+   * Movie Release Date 
+   * Genre of Movie
  
    **Missing Values:** In the case of data quality, missing data were handled on a case by case basis. Some considerations made were the relative importance of the variable in a particular analysis, how much data was needed, and finally, the possibility of filling data with a central measure of tendency and the statistical implications.  
 
@@ -54,34 +54,29 @@ This project uses descriptive analytics to report film financial performance acr
 
 There are two main sections:
 <ol>
-  <li>Data preparation
-    <ol>
+  <li>**Data preparation**
+    </ol>
        <p style="text-indent: 25px;"> 
        The steps include:
-        </p>
         <ul>
-          <li>Importing libraries
-          <li>Reading and cleaning provided data
-          <li>Dealing with missing values
-          <li>Joining datasets
+          <li>Import libraries
+          <li>Read and clean provided data
+          <li>Deal with missing values
+          <li>Join datasets
         </ul>  
-      </ol>
-</ol>      
-<ol>
-  <li>Visualisations and insights
-    <ol>
-       <p style="text-indent: 25px;"> 
-       For each characteristic:
         </p>
+           
+<ol start="2">
+  <li>**Analysis**
+    </ol>
+       <p style="text-indent: 25px;"> 
+       For each variable:
         <ul>
-          <li>Conduct feature engineering where applicable
-          <li>Create visualisations
-          <li>Draw conclusions
-          <li>Provide recommendations
+          <li>If possible, apply feature engineering
+          <li>Visualize data
+          <li>Provide conclusions and recommendations
         </ul>
-      </ol>
-</ol>
-
+        </p>
 
 # Key Findings
 
@@ -103,11 +98,11 @@ There are two main sections:
 * Almost 40% of the 100 top grossing movies of all time fall into the top three, all-time grossing genres of Action, Adventure, and Comedy.
 * More than 50% of all the movies listed are in the genre categories of Drama, Documentary, and Comedy.
 
-<img src="Photos/genre_analysis/bubble_plot_domestic_gross_by_genre.png" alt="other_image" style="width: 1500px; height: 400px; display: block; margin: center;">
+<img src="Photos/genre_analysis/bubble_plot_domestic_gross_by_genre.png" alt="other_image" style="width: 1500px; height: 800px; display: block; margin: center;">
 
 <img src="Photos/genre_analysis/t100_percent_by_genre.png" alt="other_image" style="width: 1500px; height: 400px; display: block; margin: center;">
 
-<img src="Photos/genre_analysis/production_count_by_genre.png" alt="other_image" style="width: 1500px; height: 400px; display: block; margin: center;">
+<img src="Photos/genre_analysis/production_count_by_genre.png" alt="other_image" style="width: 1500px; height: 800px; display: block; margin: center;">
 
 
 ## Release Date
