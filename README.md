@@ -54,7 +54,7 @@ This project uses descriptive analytics to report film financial performance acr
 
 There are two main sections:
 <ol>
-  <li>**Data preparation**
+    <li><strong>Data preparation</strong>
     </ol>
        <p style="text-indent: 25px;"> 
        The steps include:
@@ -67,7 +67,7 @@ There are two main sections:
         </p>
            
 <ol start="2">
-  <li>**Analysis**
+    <li><strong>Analysis</strong>
     </ol>
        <p style="text-indent: 25px;"> 
        For each variable:
@@ -176,7 +176,7 @@ The [Jupyter Notebook](https://github.com/cellister/Film-Investment-Analysis-Pro
 
 * **Presentation**
 
-This 5-7 minute, non-technical [presentation](...) was made in [Canva](https://www.canva.com/design/DAFzlcctuzo/YpMIvURJO6cI7aveTLrNDA/edit?utm_content=DAFzlcctuzo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) and gives an impactful and brief overview of the key insights and recommendations. 
+This 5-7 minute, non-technical [presentation](https://github.com/cellister/Film-Investment-Analysis-Project/blob/main/Report%20PDFs/film_investment_analysis_presentation.pdf) was made in [Canva](https://www.canva.com/design/DAFzlcctuzo/YpMIvURJO6cI7aveTLrNDA/edit?utm_content=DAFzlcctuzo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) and gives an impactful and brief overview of the key insights and recommendations. 
 
 * **Data**
 
