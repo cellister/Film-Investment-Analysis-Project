@@ -33,7 +33,7 @@ Overview of dataset:
    * **Box Office Mojo** 
    * **The Numbers**
  
-   **About:** Selected film industry data reported between 1915-2020. Due to the differences in the &nbsp;&nbsp;&nbsp;&nbsp;independent databases, when choosing variables several considerations were made:
+   **About:** Selected film industry data reported between 1915-2020. Due to the differences in the  independent databases, when choosing variables several considerations were made:
    * **Data Relevance**
    * **Data Quantity**
    * **Data Quality**
@@ -45,7 +45,7 @@ Overview of dataset:
    * **Movie Release Date** 
    * **Genre of Movie**
  
-   **Missing Values:** In the case of data quality, missing data were handled on a case by case basis. &nbsp;&nbsp;&nbsp;&nbsp;Some considerations made were the relative importance of the variable in a &nbsp;&nbsp;&nbsp;&nbsp;particular analysis, how much data was needed, and finally, the possibility of &nbsp;&nbsp;&nbsp;&nbsp;filling data with a central measure of tendency and the statistical implications.  
+   **Missing Values:** In the case of data quality, missing data were handled on a case by case basis. Some considerations made were the relative importance of the variable in a particular analysis, how much data was needed, and finally, the possibility of filling data with a central measure of tendency and the statistical implications.  
 
 
 # Methodology
@@ -57,18 +57,18 @@ There are two main sections:
 1. Data preparation
 &nbsp;&nbsp;&nbsp;&nbsp;The steps include:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Importing libraries
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reading and cleaning provided data
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dealing with missing values
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Joining datasets
+-Importing libraries
+-Reading and cleaning provided data
+-Dealing with missing values
+-Joining datasets
 
 2. Visualisations and insights
 &nbsp;&nbsp;&nbsp;&nbsp;For each characteristic:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Conduct feature engineering where applicable
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create visualisations
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Draw conclusions
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Provide recommendations
+-Conduct feature engineering where applicable
+-Create visualisations
+-Draw conclusions
+-Provide recommendations
 
 
 # Key Findings
@@ -80,9 +80,9 @@ There are two main sections:
 * The median profit margin for a top 100 all-time grossing movie is approximately 85%.
 * No correlation between budget and adjusted average domestic gross.
 
-<img src="Photos/money_analysis/domestic_gross_profit.png" alt="other_image" style="width: 400px; height: 400px; display: block; margin: auto;">
+<img src="Photos/profit_analysis/domestic_gross_profit.png" alt="other_image" style="width: 1500px; height: 800px; display: block; margin: auto;">
 
-<img src="Photos/money_analysis/budget_profit_margin.png" alt="other_image" style="width: 400px; height: 400px; display: block; margin: auto;">
+<img src="Photos/profit_analysis/budget_profit_margin.png" alt="other_image" style="width: 1500px; height: 800px; display: block; margin: auto;">
 
 
 ## Genre
@@ -91,11 +91,11 @@ There are two main sections:
 * Almost 40% of the 100 top grossing movies of all time fall into the top three, all-time grossing genres of Action, Adventure, and Comedy.
 * More than 50% of all the movies listed are in the genre categories of Drama, Documentary, and Comedy.
 
-<img src="Photos/genre_analysis/bubble_plot_domestic_gross_by_genre.png" alt="other_image" style="width: 400px; height: 400px; display: block; margin: auto;">
+<img src="Photos/genre_analysis/bubble_plot_domestic_gross_by_genre.png" alt="other_image" style="width: 1500px; height: 800px; display: block; margin: auto;">
 
-<img src="Photos/genre_analysis/t100_percent_by_genre.png" alt="other_image" style="width: 400px; height: 400px; display: block; margin: auto;">
+<img src="Photos/genre_analysis/t100_percent_by_genre.png" alt="other_image" style="width: 1500px; height: 800px; display: block; margin: auto;">
 
-<img src="Photos/genre_analysis/production_count_by_genre.png" alt="other_image" style="width: 400px; height: 400px; display: block; margin: auto;">
+<img src="Photos/genre_analysis/production_count_by_genre.png" alt="other_image" style="width: 1500px; height: 800px; display: block; margin: auto;">
 
 
 ## Release Date
@@ -103,9 +103,9 @@ There are two main sections:
 * The most successful months are May, June, July, November, and December.
 * Most movies are released on a Friday.
 
-<img src="Photos/release_date_analysis/release_month_all.png" alt="other_image" style="width: 400px; height: 400px; display: block; margin: auto;">
+<img src="Photos/release_date_analysis/release_month_all.png" alt="other_image" style="width: 1500px; height: 800px; display: block; margin: auto;">
 
-<img src="Photos/release_date_analysis/t100_release_month.png" alt="other_image" style="width: 400px; height: 400px; display: block; margin: auto;">
+<img src="Photos/release_date_analysis/t100_release_month.png" alt="other_image" style="width: 1500px; height: 800px; display: block; margin: auto;">
 
 
 ## Runtime
@@ -114,11 +114,11 @@ There are two main sections:
 * Top grossing movies run between 85-125 minutes.
 * Movies that run between 85-125 minutes have a larger adjusted average domestic gross.
 
-<img src="Photos/runtime_analysis/runtime_minute_distribution.png" alt="other_image" style="width: 400px; height: 400px; display: block; margin: auto;">
+<img src="Photos/runtime_analysis/runtime_minute_distribution.png" alt="other_image" style="width: 1500px; height: 800px; display: block; margin: auto;">
 
-<img src="Photos/runtime_analysis/runtime_range_movie_count.png" alt="other_image" style="width: 400px; height: 400px; display: block; margin: auto;">
+<img src="Photos/runtime_analysis/runtime_range_movie_count.png" alt="other_image" style="width: 1500px; height: 800px; display: block; margin: auto;">
 
-<img src="Photos/runtime_analysis/runtime_domestic_gross.png" alt="other_image" style="width: 400px; height: 400px; display: block; margin: auto;">
+<img src="Photos/runtime_analysis/runtime_domestic_gross.png" alt="other_image" style="width: 1500px; height: 800px; display: block; margin: auto;">
 
 
 # Actionable Insights
