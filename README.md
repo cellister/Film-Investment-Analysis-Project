@@ -53,17 +53,19 @@ Overview of dataset:
 This project uses descriptive analytics to report film financial performance across several variables using historical and current data. This analysis organizes and uses data from a variety of datasets to alert, explore, and report trends and insights into the potential gross earnings of new films based on genre, runtime, and release date. 
 
 There are two main sections:
-
-1. Data preparation
-&nbsp;&nbsp;&nbsp;&nbsp;The steps include:
+<ol>
+  <li>1. Data preparation
+    <ol>
+       <li>The steps include:
 
 -Importing libraries
 -Reading and cleaning provided data
 -Dealing with missing values
 -Joining datasets
-
-2. Visualisations and insights
-&nbsp;&nbsp;&nbsp;&nbsp;For each characteristic:
+<ol>
+  <li>2. Visualisations and insights
+    <ol>
+      <li>For each characteristic:
 
 -Conduct feature engineering where applicable
 -Create visualisations
@@ -80,9 +82,9 @@ There are two main sections:
 * The median profit margin for a top 100 all-time grossing movie is approximately 85%.
 * No correlation between budget and adjusted average domestic gross.
 
-<img src="Photos/profit_analysis/domestic_gross_profit.png" alt="other_image" style="width: 1500px; height: 800px; display: block; margin: auto;">
+<img src="Photos/profit_analysis/domestic_gross_profit.png" alt="other_image" style="width: 1500px; height: 400px; display: block; margin: auto;">
 
-<img src="Photos/profit_analysis/budget_profit_margin.png" alt="other_image" style="width: 1500px; height: 800px; display: block; margin: auto;">
+<img src="Photos/profit_analysis/budget_profit_margin.png" alt="other_image" style="width: 1500px; height: 400px; display: block; margin: auto;">
 
 
 ## Genre
@@ -91,11 +93,11 @@ There are two main sections:
 * Almost 40% of the 100 top grossing movies of all time fall into the top three, all-time grossing genres of Action, Adventure, and Comedy.
 * More than 50% of all the movies listed are in the genre categories of Drama, Documentary, and Comedy.
 
-<img src="Photos/genre_analysis/bubble_plot_domestic_gross_by_genre.png" alt="other_image" style="width: 1500px; height: 800px; display: block; margin: auto;">
+<img src="Photos/genre_analysis/bubble_plot_domestic_gross_by_genre.png" alt="other_image" style="width: 1500px; height: 400px; display: block; margin: auto;">
 
-<img src="Photos/genre_analysis/t100_percent_by_genre.png" alt="other_image" style="width: 1500px; height: 800px; display: block; margin: auto;">
+<img src="Photos/genre_analysis/t100_percent_by_genre.png" alt="other_image" style="width: 1500px; height: 400px; display: block; margin: auto;">
 
-<img src="Photos/genre_analysis/production_count_by_genre.png" alt="other_image" style="width: 1500px; height: 800px; display: block; margin: auto;">
+<img src="Photos/genre_analysis/production_count_by_genre.png" alt="other_image" style="width: 1500px; height: 400px; display: block; margin: auto;">
 
 
 ## Release Date
@@ -103,9 +105,9 @@ There are two main sections:
 * The most successful months are May, June, July, November, and December.
 * Most movies are released on a Friday.
 
-<img src="Photos/release_date_analysis/release_month_all.png" alt="other_image" style="width: 1500px; height: 800px; display: block; margin: auto;">
+<img src="Photos/release_date_analysis/release_month_all.png" alt="other_image" style="width: 1500px; height: 400px; display: block; margin: auto;">
 
-<img src="Photos/release_date_analysis/t100_release_month.png" alt="other_image" style="width: 1500px; height: 800px; display: block; margin: auto;">
+<img src="Photos/release_date_analysis/t100_release_month.png" alt="other_image" style="width: 1500px; height: 400px; display: block; margin: auto;">
 
 
 ## Runtime
@@ -114,11 +116,11 @@ There are two main sections:
 * Top grossing movies run between 85-125 minutes.
 * Movies that run between 85-125 minutes have a larger adjusted average domestic gross.
 
-<img src="Photos/runtime_analysis/runtime_minute_distribution.png" alt="other_image" style="width: 1500px; height: 800px; display: block; margin: auto;">
+<img src="Photos/runtime_analysis/runtime_minute_distribution.png" alt="other_image" style="width: 1500px; height: 400px; display: block; margin: auto;">
 
-<img src="Photos/runtime_analysis/runtime_range_movie_count.png" alt="other_image" style="width: 1500px; height: 800px; display: block; margin: auto;">
+<img src="Photos/runtime_analysis/runtime_range_movie_count.png" alt="other_image" style="width: 1500px; height: 400px; display: block; margin: auto;">
 
-<img src="Photos/runtime_analysis/runtime_domestic_gross.png" alt="other_image" style="width: 1500px; height: 800px; display: block; margin: auto;">
+<img src="Photos/runtime_analysis/runtime_domestic_gross.png" alt="other_image" style="width: 1500px; height: 400px; display: block; margin: auto;">
 
 
 # Actionable Insights
