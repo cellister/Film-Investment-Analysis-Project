@@ -7,6 +7,7 @@ Analysis by Erin Wasserman, February 2024
 
 # Overview
 
+This project analyzes which types of movies generate the most revenue at the box office. Descriptive analysis of movie data sets collected from Box Office Mojo, IMBD, Rotten Tomatoes, The Movie DB, and The Numbers, will highlight specific movie characteristics that increase ROI such as, genre selection, month of the film's release, and the length/runtime of the movie. This analysis can be used by the company to make decisions on these specific movie criteria and help the company's new movie studio operate with the lowest risk in their new business endeavor.
 
 
 # Business Problem
@@ -32,7 +33,7 @@ Overview of dataset:
    * **Box Office Mojo** 
    * **The Numbers**
  
-   **About:** Selected film industry data reported between 1915-2020. Due to the differences in the independent databases, when choosing variables several considerations were made:
+   **About:** Selected film industry data reported between 1915-2020. Due to the differences in the &nbsp;&nbsp;&nbsp;&nbsp;independent databases, when choosing variables several considerations were made:
    * **Data Relevance**
    * **Data Quantity**
    * **Data Quality**
@@ -44,7 +45,8 @@ Overview of dataset:
    * **Movie Release Date** 
    * **Genre of Movie**
  
-   **Missing Values:** In the case of data quality, missing data were handled on a case by case basis. Some considerations made were the relative importance of the variable in a particular analysis, how much data was needed, and finally, the possibility of filling data with a central measure of tendency and the statistical implications.  
+   **Missing Values:** In the case of data quality, missing data were handled on a case by case basis. &nbsp;&nbsp;&nbsp;&nbsp;Some considerations made were the relative importance of the variable in a &nbsp;&nbsp;&nbsp;&nbsp;particular analysis, how much data was needed, and finally, the possibility of &nbsp;&nbsp;&nbsp;&nbsp;filling data with a central measure of tendency and the statistical implications.  
+
 
 # Methodology
 
@@ -53,20 +55,21 @@ This project uses descriptive analytics to report film financial performance acr
 There are two main sections:
 
 1. Data preparation
-The steps include:
+&nbsp;&nbsp;&nbsp;&nbsp;The steps include:
 
-Importing libraries
-Reading and cleaning provided data
-Dealing with missing values
-Joining datasets
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Importing libraries
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reading and cleaning provided data
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dealing with missing values
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Joining datasets
 
 2. Visualisations and insights
-For each characteristic:
+&nbsp;&nbsp;&nbsp;&nbsp;For each characteristic:
 
-Conduct feature engineering where applicable
-Create visualisations
-Draw conclusions
-Provide recommendations
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Conduct feature engineering where applicable
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create visualisations
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Draw conclusions
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Provide recommendations
+
 
 # Key Findings
 
@@ -77,9 +80,10 @@ Provide recommendations
 * The median profit margin for a top 100 all-time grossing movie is approximately 85%.
 * No correlation between budget and adjusted average domestic gross.
 
-<img src="Photos/money_analysis/domestic_gross_profit.png" alt="other_image" style="width: 200px; display: block; margin: auto;">
+<img src="Photos/money_analysis/domestic_gross_profit.png" alt="other_image" style="width: 400px; height: 400px; display: block; margin: auto;">
 
-<img src="Photos/money_analysis/budget_profit_margin.png" alt="other_image" style="width: 200px; display: block; margin: auto;">
+<img src="Photos/money_analysis/budget_profit_margin.png" alt="other_image" style="width: 400px; height: 400px; display: block; margin: auto;">
+
 
 ## Genre
 
@@ -87,20 +91,22 @@ Provide recommendations
 * Almost 40% of the 100 top grossing movies of all time fall into the top three, all-time grossing genres of Action, Adventure, and Comedy.
 * More than 50% of all the movies listed are in the genre categories of Drama, Documentary, and Comedy.
 
-<img src="Photos/genre_analysis/bubble_plot_domestic_gross_by_genre.png" alt="other_image" style="width: 200px; display: block; margin: auto;">
+<img src="Photos/genre_analysis/bubble_plot_domestic_gross_by_genre.png" alt="other_image" style="width: 400px; height: 400px; display: block; margin: auto;">
 
-<img src="Photos/genre_analysis/t100_percent_by_genre.png" alt="other_image" style="width: 200px; display: block; margin: auto;">
+<img src="Photos/genre_analysis/t100_percent_by_genre.png" alt="other_image" style="width: 400px; height: 400px; display: block; margin: auto;">
 
-<img src="Photos/genre_analysis/production_count_by_genre.png" alt="other_image" style="width: 200px; display: block; margin: auto;">
+<img src="Photos/genre_analysis/production_count_by_genre.png" alt="other_image" style="width: 400px; height: 400px; display: block; margin: auto;">
+
 
 ## Release Date
 
 * The most successful months are May, June, July, November, and December.
 * Most movies are released on a Friday.
 
-<img src="Photos/release_date_analysis/release_month_all.png" alt="other_image" style="width: 200px; display: block; margin: auto;">
+<img src="Photos/release_date_analysis/release_month_all.png" alt="other_image" style="width: 400px; height: 400px; display: block; margin: auto;">
 
-<img src="Photos/release_date_analysis/t100_release_month.png" alt="other_image" style="width: 200px; display: block; margin: auto;">
+<img src="Photos/release_date_analysis/t100_release_month.png" alt="other_image" style="width: 400px; height: 400px; display: block; margin: auto;">
+
 
 ## Runtime
 
@@ -108,11 +114,12 @@ Provide recommendations
 * Top grossing movies run between 85-125 minutes.
 * Movies that run between 85-125 minutes have a larger adjusted average domestic gross.
 
-<img src="Photos/runtime_analysis/runtime_minute_distribution.png" alt="other_image" style="width: 200px; display: block; margin: auto;">
+<img src="Photos/runtime_analysis/runtime_minute_distribution.png" alt="other_image" style="width: 400px; height: 400px; display: block; margin: auto;">
 
-<img src="Photos/runtime_analysis/runtime_range_movie_count.png" alt="other_image" style="width: 200px; display: block; margin: auto;">
+<img src="Photos/runtime_analysis/runtime_range_movie_count.png" alt="other_image" style="width: 400px; height: 400px; display: block; margin: auto;">
 
-<img src="Photos/runtime_analysis/runtime_domestic_gross.png" alt="other_image" style="width: 200px; display: block; margin: auto;">
+<img src="Photos/runtime_analysis/runtime_domestic_gross.png" alt="other_image" style="width: 400px; height: 400px; display: block; margin: auto;">
+
 
 # Actionable Insights
 
@@ -121,8 +128,27 @@ Provide recommendations
 3. Produce a movie with a genre of action or adventure. 
 4. Plan for a budget of $50-$250 million.
 
+
 # Next Steps
 
+While providing valuable insights, the analysis acknowledges the need for further investigation to address nuances and ensure a comprehensive understanding of movie dynamics influencing financial success.
+
+1. In-Depth Genre Analysis:
+Conduct a detailed investigation into genres with zero CPI-adjusted average domestic gross. Verify the data sources and integrity, explore reasons for the absence of financial information, and determine if these genres are genuinely unprofitable or if there are data gaps.
+
+2. Mixed-Genre Film Exploration:
+Devote a segment of the analysis to understanding the influence of mixed-genre films on financial performance. This could involve categorizing movies with multiple genres and examining how these combinations contribute to box office revenue. Insights gained could refine genre-specific recommendations.
+
+3. External Factors Impacting Release Timing:
+Extend the analysis to consider external factors influencing release timing, beyond month-based trends. Factors like major ecomonmic events, holidays, or cultural phenomena may impact movie profitability. Identifying and understanding these factors can provide more nuanced recommendations for optimal release schedules.
+
+4. Consumer Preferences and Genre Evolution:
+Investigate evolving consumer preferences in movie genres over time. Analyze historical trends to identify shifts in audience interests. Understanding how genres have evolved can inform strategic decisions about genre selection/combination and potential shifts in the future.
+
+5. Comprehensive ROI Forecasting Model:
+Develop a comprehensive model that incorporates specific factors prioritized by the film company based on their staff strengths and goals. This could involve collaboration with stakeholders to identify key performance indicators (KPIs) and create a forecasting model tailored to the company's unique priorities.
+
+These next steps aim to address identified inconsistencies, enhance the robustness of the analysis, and provide more actionable insights for the film company's decision-making processes.
 
 
 # Author
@@ -132,6 +158,7 @@ Name: Erin Wasserman
 GitHub: [Cellister](https://github.com/cellister)
 
 Email address: cellister at gmail .com
+
 
 # Repository Structure
 
