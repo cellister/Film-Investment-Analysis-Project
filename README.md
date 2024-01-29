@@ -40,7 +40,7 @@ Overview of dataset:
  
    **Decision-based Variables used:**
    * **Profit/Profit Margin**
-   ** **Average Domestic Gross**
+   * **Average Domestic Gross**
    * **Movie Runtime** 
    * **Movie Release Date** 
    * **Genre of Movie**
@@ -54,23 +54,33 @@ This project uses descriptive analytics to report film financial performance acr
 
 There are two main sections:
 <ol>
-  <li>1. Data preparation
+  <li>Data preparation
     <ol>
-       <li>The steps include:
-
--Importing libraries
--Reading and cleaning provided data
--Dealing with missing values
--Joining datasets
+       <p style="text-indent: 25px;"> 
+       The steps include:
+        </p>
+        <ul>
+          <li>Importing libraries
+          <li>Reading and cleaning provided data
+          <li>Dealing with missing values
+          <li>Joining datasets
+        </ul>  
+      </ol>
+</ol>      
 <ol>
-  <li>2. Visualisations and insights
+  <li>Visualisations and insights
     <ol>
-      <li>For each characteristic:
-
--Conduct feature engineering where applicable
--Create visualisations
--Draw conclusions
--Provide recommendations
+       <p style="text-indent: 25px;"> 
+       For each characteristic:
+        </p>
+        <ul>
+          <li>Conduct feature engineering where applicable
+          <li>Create visualisations
+          <li>Draw conclusions
+          <li>Provide recommendations
+        </ul>
+      </ol>
+</ol>
 
 
 # Key Findings
@@ -82,9 +92,9 @@ There are two main sections:
 * The median profit margin for a top 100 all-time grossing movie is approximately 85%.
 * No correlation between budget and adjusted average domestic gross.
 
-<img src="Photos/profit_analysis/domestic_gross_profit.png" alt="other_image" style="width: 1500px; height: 400px; display: block; margin: auto;">
+<img src="Photos/profit_analysis/domestic_gross_profit.png" alt="other_image" style="width: 1500px; height: 400px; display: block; margin: center;">
 
-<img src="Photos/profit_analysis/budget_profit_margin.png" alt="other_image" style="width: 1500px; height: 400px; display: block; margin: auto;">
+<img src="Photos/profit_analysis/budget_profit_margin.png" alt="other_image" style="width: 1500px; height: 400px; display: block; margin: center;">
 
 
 ## Genre
@@ -93,11 +103,11 @@ There are two main sections:
 * Almost 40% of the 100 top grossing movies of all time fall into the top three, all-time grossing genres of Action, Adventure, and Comedy.
 * More than 50% of all the movies listed are in the genre categories of Drama, Documentary, and Comedy.
 
-<img src="Photos/genre_analysis/bubble_plot_domestic_gross_by_genre.png" alt="other_image" style="width: 1500px; height: 400px; display: block; margin: auto;">
+<img src="Photos/genre_analysis/bubble_plot_domestic_gross_by_genre.png" alt="other_image" style="width: 1500px; height: 400px; display: block; margin: center;">
 
-<img src="Photos/genre_analysis/t100_percent_by_genre.png" alt="other_image" style="width: 1500px; height: 400px; display: block; margin: auto;">
+<img src="Photos/genre_analysis/t100_percent_by_genre.png" alt="other_image" style="width: 1500px; height: 400px; display: block; margin: center;">
 
-<img src="Photos/genre_analysis/production_count_by_genre.png" alt="other_image" style="width: 1500px; height: 400px; display: block; margin: auto;">
+<img src="Photos/genre_analysis/production_count_by_genre.png" alt="other_image" style="width: 1500px; height: 400px; display: block; margin: center;">
 
 
 ## Release Date
@@ -105,9 +115,9 @@ There are two main sections:
 * The most successful months are May, June, July, November, and December.
 * Most movies are released on a Friday.
 
-<img src="Photos/release_date_analysis/release_month_all.png" alt="other_image" style="width: 1500px; height: 400px; display: block; margin: auto;">
+<img src="Photos/release_date_analysis/release_month_all.png" alt="other_image" style="width: 1500px; height: 400px; display: block; margin: center;">
 
-<img src="Photos/release_date_analysis/t100_release_month.png" alt="other_image" style="width: 1500px; height: 400px; display: block; margin: auto;">
+<img src="Photos/release_date_analysis/t100_release_month.png" alt="other_image" style="width: 1500px; height: 400px; display: block; margin: center;">
 
 
 ## Runtime
@@ -116,40 +126,41 @@ There are two main sections:
 * Top grossing movies run between 85-125 minutes.
 * Movies that run between 85-125 minutes have a larger adjusted average domestic gross.
 
-<img src="Photos/runtime_analysis/runtime_minute_distribution.png" alt="other_image" style="width: 1500px; height: 400px; display: block; margin: auto;">
+<img src="Photos/runtime_analysis/runtime_minute_distribution.png" alt="other_image" style="width: 1500px; height: 400px; display: block; margin: center;">
 
-<img src="Photos/runtime_analysis/runtime_range_movie_count.png" alt="other_image" style="width: 1500px; height: 400px; display: block; margin: auto;">
+<img src="Photos/runtime_analysis/runtime_range_movie_count.png" alt="other_image" style="width: 1500px; height: 400px; display: block; margin: center;">
 
-<img src="Photos/runtime_analysis/runtime_domestic_gross.png" alt="other_image" style="width: 1500px; height: 400px; display: block; margin: auto;">
+<img src="Photos/runtime_analysis/runtime_domestic_gross.png" alt="other_image" style="width: 1500px; height: 400px; display: block; margin: center;">
 
 
 # Actionable Insights
-
-1. Produce a movie with a runtime between 85-125 minutes.
-2. Aim for a May/June or November/December release date.
-3. Produce a movie with a genre of action or adventure. 
-4. Plan for a budget of $50-$250 million.
+<ol>
+<li>Produce a movie with a runtime between 85-125 minutes.
+<li>Aim for a May/June or November/December release date.
+<li>Produce a movie with a genre of action or adventure. 
+<li>Plan for a budget of $50-$250 million.
+</ol>
 
 
 # Next Steps
 
 While providing valuable insights, the analysis acknowledges the need for further investigation to address nuances and ensure a comprehensive understanding of movie dynamics influencing financial success.
-
-1. In-Depth Genre Analysis:
+<ol>
+<li>In-Depth Genre Analysis:
 Conduct a detailed investigation into genres with zero CPI-adjusted average domestic gross. Verify the data sources and integrity, explore reasons for the absence of financial information, and determine if these genres are genuinely unprofitable or if there are data gaps.
 
-2. Mixed-Genre Film Exploration:
+<li>Mixed-Genre Film Exploration:
 Devote a segment of the analysis to understanding the influence of mixed-genre films on financial performance. This could involve categorizing movies with multiple genres and examining how these combinations contribute to box office revenue. Insights gained could refine genre-specific recommendations.
 
-3. External Factors Impacting Release Timing:
+<li>External Factors Impacting Release Timing:
 Extend the analysis to consider external factors influencing release timing, beyond month-based trends. Factors like major ecomonmic events, holidays, or cultural phenomena may impact movie profitability. Identifying and understanding these factors can provide more nuanced recommendations for optimal release schedules.
 
-4. Consumer Preferences and Genre Evolution:
+<li>Consumer Preferences and Genre Evolution:
 Investigate evolving consumer preferences in movie genres over time. Analyze historical trends to identify shifts in audience interests. Understanding how genres have evolved can inform strategic decisions about genre selection/combination and potential shifts in the future.
 
-5. Comprehensive ROI Forecasting Model:
+<li>Comprehensive ROI Forecasting Model:
 Develop a comprehensive model that incorporates specific factors prioritized by the film company based on their staff strengths and goals. This could involve collaboration with stakeholders to identify key performance indicators (KPIs) and create a forecasting model tailored to the company's unique priorities.
-
+</ol>
 These next steps aim to address identified inconsistencies, enhance the robustness of the analysis, and provide more actionable insights for the film company's decision-making processes.
 
 
