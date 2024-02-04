@@ -50,10 +50,8 @@ This project uses descriptive analytics to report film financial performance acr
 
 There are two main sections:
 <ol>
-    <li><strong>Data preparation</strong>
+    <li><strong>Data preparation steps include:</strong>
     </ol>
-       <p style="text-indent: 25px;"> 
-       The steps include:
         <ul>
           <li>Import libraries
           <li>Read and clean provided data
@@ -63,10 +61,8 @@ There are two main sections:
         </p>
            
 <ol start="2">
-    <li><strong>Analysis</strong>
+    <li><strong>Analysis for each variable:</strong>
     </ol>
-       <p style="text-indent: 25px;"> 
-       For each variable:
         <ul>
           <li>If possible, apply feature engineering
           <li>Visualize data
@@ -162,7 +158,7 @@ This 5-7 minute, non-technical [presentation](https://github.com/cellister/Film-
 
 The data used in this analysis can be found in the ‘Data’ folder. Some data can be found on the [IMDb Website](https://developer.imdb.com/non-commercial-datasets/).
 
-'''
+```
 
 ├── Photos
 │   ├── genre_analysis
@@ -178,4 +174,4 @@ The data used in this analysis can be found in the ‘Data’ folder. Some data 
 ├── .gitignore
 ├── Film_Investment_Analysis.ipynb
 └── README.md
-'''
+```
