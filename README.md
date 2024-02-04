@@ -148,7 +148,7 @@ Email address: cellister at gmail .com
 
 * **Jupyter Notebook**
 
-The [Jupyter Notebook](https://github.com/cellister/Film-Investment-Analysis-Project/blob/main/Film%20Investment%20Analysis%20Notebook.ipynb) is the key deliverable and contains the details of my data strategy, methodology, data cleaning, visualizations, and actionable insights.
+The [Jupyter Notebook](https://github.com/cellister/Film-Investment-Analysis-Project/blob/main/Film_Investment%20Analysis_Notebook.ipynb) is the key deliverable and contains the details of my data strategy, methodology, data cleaning, visualizations, and actionable insights.
 
 * **Presentation**
 
