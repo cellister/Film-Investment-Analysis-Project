@@ -18,12 +18,10 @@ Analyzing several movie datasets can provide valuable insights that can lead to 
 * **Most successful release months are May, June, November, and December**
 * **The most profitable movies are 85-125 minutes in length**
 
-It's important to note that any business recommendations derived from data analysis should be accompanied by careful consideration of the specific context, legal and regulatory requirements, and limitations of the dataset. Additionally, these recommendations should be subject to ongoing evaluation and refinement based on updated data and emerging industry practices.
-
 
 # Data Understanding
 
-Some media databases provide public data that includes various data about historical and current films both domestically and internationally. Each database has a variety of variables some of which may match other databases. The quantity of data provided was excllent, however, the quality of these various datasets were weak.  
+Some media databases provide public data that includes various data about historical and current films both domestically and internationally. Each database has a variety of variables some of which may match other databases. The quantity of data provided was excellent, however, the quality of these various datasets were weak.  
 
 Overview of dataset:
 
@@ -44,8 +42,6 @@ Overview of dataset:
    * Movie Runtime 
    * Movie Release Date 
    * Genre of Movie
- 
-   **Missing Values:** In the case of data quality, missing data were handled on a case by case basis. Some considerations made were the relative importance of the variable in a particular analysis, how much data was needed, and finally, the possibility of filling data with a central measure of tendency and the statistical implications.  
 
 
 # Methodology
@@ -84,25 +80,19 @@ There are two main sections:
 
 * A strong, positive, linear association between profit and average domestic gross with a few outliers.
 * The median profit is approximately 500 million US dollars.
-* The median profit margin for a top 100 all-time grossing movie is approximately 85%.
+* The median profit margin for a top 100 all-time grossing movie is approximately 88%.
 * No correlation between budget and adjusted average domestic gross.
 
 <img src="Photos/profit_analysis/domestic_gross_profit.png" alt="other_image" style="width: 1500px; height: 400px; display: block; margin: center;">
-
-<img src="Photos/profit_analysis/budget_profit_margin.png" alt="other_image" style="width: 1500px; height: 400px; display: block; margin: center;">
 
 
 ## Genre
 
 * The top three all-time grossing genres are Action, Adventure, and Comedy.
-* Almost 40% of the 100 top grossing movies of all time fall into the top three, all-time grossing genres of Action, Adventure, and Comedy.
-* More than 50% of all the movies listed are in the genre categories of Drama, Documentary, and Comedy.
+* Almost 64% of the 100 top grossing movies of all time fall into the top three, all-time grossing genres of Action, Adventure, and Comedy.
+* More than 50% of all movies produced are in the genre categories of Drama, Documentary, and Comedy.
 
 <img src="Photos/genre_analysis/bubble_plot_domestic_gross_by_genre.png" alt="other_image" style="width: 1500px; height: 800px; display: block; margin: center;">
-
-<img src="Photos/genre_analysis/t100_percent_by_genre.png" alt="other_image" style="width: 1500px; height: 400px; display: block; margin: center;">
-
-<img src="Photos/genre_analysis/production_count_by_genre.png" alt="other_image" style="width: 1500px; height: 800px; display: block; margin: center;">
 
 
 ## Release Date
@@ -110,22 +100,16 @@ There are two main sections:
 * The most successful months are May, June, July, November, and December.
 * Most movies are released on a Friday.
 
-<img src="Photos/release_date_analysis/release_month_all.png" alt="other_image" style="width: 1500px; height: 400px; display: block; margin: center;">
-
 <img src="Photos/release_date_analysis/t100_release_month.png" alt="other_image" style="width: 1500px; height: 400px; display: block; margin: center;">
 
 
 ## Runtime
 
-* The average runtime is 85 minutes.
+* The average runtime is 87 minutes.
 * Top grossing movies run between 85-125 minutes.
 * Movies that run between 85-125 minutes have a larger adjusted average domestic gross.
 
 <img src="Photos/runtime_analysis/runtime_minute_distribution.png" alt="other_image" style="width: 1500px; height: 400px; display: block; margin: center;">
-
-<img src="Photos/runtime_analysis/runtime_range_movie_count.png" alt="other_image" style="width: 1500px; height: 400px; display: block; margin: center;">
-
-<img src="Photos/runtime_analysis/runtime_domestic_gross.png" alt="other_image" style="width: 1500px; height: 400px; display: block; margin: center;">
 
 
 # Actionable Insights
@@ -133,7 +117,7 @@ There are two main sections:
 <li>Produce a movie with a runtime between 85-125 minutes.
 <li>Aim for a May/June or November/December release date.
 <li>Produce a movie with a genre of action or adventure. 
-<li>Plan for a budget of $50-$250 million.
+<li>Plan for a budget of $44-$136 million.
 </ol>
 
 
@@ -141,20 +125,16 @@ There are two main sections:
 
 While providing valuable insights, the analysis acknowledges the need for further investigation to address nuances and ensure a comprehensive understanding of movie dynamics influencing financial success.
 <ol>
-<li>In-Depth Genre Analysis:
-Conduct a detailed investigation into genres with zero CPI-adjusted average domestic gross. Verify the data sources and integrity, explore reasons for the absence of financial information, and determine if these genres are genuinely unprofitable or if there are data gaps.
+<li>In-Depth Genre Analysis
 
-<li>Mixed-Genre Film Exploration:
-Devote a segment of the analysis to understanding the influence of mixed-genre films on financial performance. This could involve categorizing movies with multiple genres and examining how these combinations contribute to box office revenue. Insights gained could refine genre-specific recommendations.
+<li>Mixed-Genre Film Exploration
 
-<li>External Factors Impacting Release Timing:
-Extend the analysis to consider external factors influencing release timing, beyond month-based trends. Factors like major ecomonmic events, holidays, or cultural phenomena may impact movie profitability. Identifying and understanding these factors can provide more nuanced recommendations for optimal release schedules.
+<li>External Factors Impacting Release Timing
 
-<li>Consumer Preferences and Genre Evolution:
-Investigate evolving consumer preferences in movie genres over time. Analyze historical trends to identify shifts in audience interests. Understanding how genres have evolved can inform strategic decisions about genre selection/combination and potential shifts in the future.
+<li>Consumer Preferences and Genre Evolution
 
-<li>Comprehensive ROI Forecasting Model:
-Develop a comprehensive model that incorporates specific factors prioritized by the film company based on their staff strengths and goals. This could involve collaboration with stakeholders to identify key performance indicators (KPIs) and create a forecasting model tailored to the company's unique priorities.
+<li>Comprehensive ROI Forecasting Model
+    
 </ol>
 These next steps aim to address identified inconsistencies, enhance the robustness of the analysis, and provide more actionable insights for the film company's decision-making processes.
 
@@ -182,15 +162,20 @@ This 5-7 minute, non-technical [presentation](https://github.com/cellister/Film-
 
 The data used in this analysis can be found in the ‘Data’ folder. Some data can be found on the [IMDb Website](https://developer.imdb.com/non-commercial-datasets/).
 
+'''
 
-├── code
-│   ├── __init__.py
-│   ├── data_preparation.py
-│   ├── visualizations.py
-│   └── eda_notebook.ipynb
-├── data
-├── images
-├── __init__.py
-├── README.md
-├── Film_Investment_Ananlysis_Presentation.pdf
-└── Film_Investment_Analysis.ipynb
+├── Photos
+│   ├── genre_analysis
+│   ├── notebook
+│   ├── profit_analysis
+│   ├── release_date_analysis
+│   └── runtime_analysis
+│    
+├── Project PDFs
+│   ├── film_investment_analysis_presentation.pdf
+│   ├── film_investment_analysis_notebook.pdf
+│   └── github_repository.pdf
+├── .gitignore
+├── Film_Investment_Analysis.ipynb
+└── README.md
+'''
